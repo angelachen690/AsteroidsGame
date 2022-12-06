@@ -29,5 +29,10 @@ public void setSpeed(double x){
     myXspeed = x;
     myYspeed = x;
   }
-
+public double getX(){
+      return myCenterX;
+    }
+    public double getY(){
+      return myCenterY; 
+    }
 }
